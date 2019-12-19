@@ -1,3 +1,4 @@
+/*! Begodya 出品，敬请期待 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -93,7 +94,7 @@
 /*! exports provided: greetContent, default */
 /***/ (function(module) {
 
-eval("module.exports = JSON.parse(\"{\\\"greetContent\\\":\\\"Greetings from JSON! I am begodya~\\\"}\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3NyYy9jb25maWcuanNvbi5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/config.json\n");
+eval("module.exports = JSON.parse(\"{\\\"greetContent\\\":\\\"Greetings from JSON! I am begodya~ lol\\\"}\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3NyYy9jb25maWcuanNvbi5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/config.json\n");
 
 /***/ }),
 
