@@ -86,25 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/config.json":
-/*!*************************!*\
-  !*** ./src/config.json ***!
-  \*************************/
-/*! exports provided: greetContent, default */
-/***/ (function(module) {
-
-eval("module.exports = JSON.parse(\"{\\\"greetContent\\\":\\\"Greetings from JSON! I am begodya~\\\"}\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3NyYy9jb25maWcuanNvbi5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/config.json\n");
-
-/***/ }),
-
 /***/ "./src/greeter.js":
 /*!************************!*\
   !*** ./src/greeter.js ***!
   \************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("var config = __webpack_require__(/*! ./config.json */ \"./src/config.json\");\n\nmodule.exports = function () {\n  var greeter = document.createElement('div');\n  greeter.textContent = config.greetContent;\n  return greeter;\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvZ3JlZXRlci5qcz8zMzRiIl0sIm5hbWVzIjpbImNvbmZpZyIsInJlcXVpcmUiLCJtb2R1bGUiLCJleHBvcnRzIiwiZ3JlZXRlciIsImRvY3VtZW50IiwiY3JlYXRlRWxlbWVudCIsInRleHRDb250ZW50IiwiZ3JlZXRDb250ZW50Il0sIm1hcHBpbmdzIjoiQUFBQSxJQUFJQSxTQUFTQyxtQkFBT0EsQ0FBQyx3Q0FBUixDQUFiOztBQUVBQyxPQUFPQyxPQUFQLEdBQWlCLFlBQVk7QUFDM0IsTUFBSUMsVUFBVUMsU0FBU0MsYUFBVCxDQUF1QixLQUF2QixDQUFkO0FBQ0FGLFVBQVFHLFdBQVIsR0FBc0JQLE9BQU9RLFlBQTdCO0FBQ0EsU0FBT0osT0FBUDtBQUNELENBSkQiLCJmaWxlIjoiLi9zcmMvZ3JlZXRlci5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBjb25maWcgPSByZXF1aXJlKCcuL2NvbmZpZy5qc29uJylcblxubW9kdWxlLmV4cG9ydHMgPSBmdW5jdGlvbiAoKSB7XG4gIHZhciBncmVldGVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2JylcbiAgZ3JlZXRlci50ZXh0Q29udGVudCA9IGNvbmZpZy5ncmVldENvbnRlbnRcbiAgcmV0dXJuIGdyZWV0ZXJcbn0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/greeter.js\n");
+eval("module.exports = function () {\n  var greeter = document.createElement('div')\n  greeter.textContent = 'Hello, webpack! I am begodya'\n  return greeter\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvZ3JlZXRlci5qcz8zMzRiIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiLi9zcmMvZ3JlZXRlci5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24gKCkge1xuICB2YXIgZ3JlZXRlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpXG4gIGdyZWV0ZXIudGV4dENvbnRlbnQgPSAnSGVsbG8sIHdlYnBhY2shIEkgYW0gYmVnb2R5YSdcbiAgcmV0dXJuIGdyZWV0ZXJcbn0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/greeter.js\n");
 
 /***/ }),
 
@@ -115,7 +104,7 @@ eval("var config = __webpack_require__(/*! ./config.json */ \"./src/config.json\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const greeter = __webpack_require__(/*! ./greeter */ \"./src/greeter.js\");\ndocument.querySelector(\"#root\").appendChild(greeter());//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi5qcz81NmQ3Il0sIm5hbWVzIjpbImdyZWV0ZXIiLCJyZXF1aXJlIiwiZG9jdW1lbnQiLCJxdWVyeVNlbGVjdG9yIiwiYXBwZW5kQ2hpbGQiXSwibWFwcGluZ3MiOiJBQUFBLE1BQU1BLFVBQVVDLG1CQUFPQSxDQUFDLG1DQUFSLENBQWhCO0FBQ0FDLFNBQVNDLGFBQVQsQ0FBdUIsT0FBdkIsRUFBZ0NDLFdBQWhDLENBQTRDSixTQUE1QyIsImZpbGUiOiIuL3NyYy9tYWluLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgZ3JlZXRlciA9IHJlcXVpcmUoJy4vZ3JlZXRlcicpXG5kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiI3Jvb3RcIikuYXBwZW5kQ2hpbGQoZ3JlZXRlcigpKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/main.js\n");
+eval("const greeter = __webpack_require__(/*! ./greeter */ \"./src/greeter.js\")\ndocument.querySelector(\"#root\").appendChild(greeter())//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi5qcz81NmQ3Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQixtQkFBTyxDQUFDLG1DQUFXO0FBQ25DIiwiZmlsZSI6Ii4vc3JjL21haW4uanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBncmVldGVyID0gcmVxdWlyZSgnLi9ncmVldGVyJylcbmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIjcm9vdFwiKS5hcHBlbmRDaGlsZChncmVldGVyKCkpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/main.js\n");
 
 /***/ })
 
