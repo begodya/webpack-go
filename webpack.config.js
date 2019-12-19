@@ -19,6 +19,7 @@ module.exports = {
     historyApiFallback: true, // 设置 true，所有跳转将指向 index.html
   },
 
+  // 模块
   module: {
     rules: [{
       test: /\.js$/,
@@ -27,5 +28,10 @@ module.exports = {
       },
       exclude: /node_modules/
     }]
-  }
+  },
+
+  // 插件
+  plugins: [
+    new webpack.BannerPlugin('Begodya 出品，敬请期待')
+  ]
 }
